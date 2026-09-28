@@ -1,0 +1,17 @@
+.folder {
+  cursor: pointer;
+
+  &-label {}
+}
+
+.files {
+  height: 0;
+  overflow: hidden;
+  padding-left: 18px;
+
+  &.visible {
+    height: auto;
+    overflow: auto;
+    padding-left: 18px;
+  }
+}
