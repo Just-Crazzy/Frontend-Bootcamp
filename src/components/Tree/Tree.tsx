@@ -13,19 +13,15 @@ const Tree = (props: TreeProps) => {
 
     if (value.type === 'folder') {
       return (
-        <>
-          <Folder key={`${name}_${value.type}`} name={name}>
-            <Tree data={value.children} />
-          </Folder>
-        </>
+        <Folder key={`${name}_${value.type}`} name={name}>
+          <Tree data={value.children} />
+        </Folder>
       )
     }
 
     if (value.type === 'file') {
       return (
-        <>
           <File key={`${name}_${value.type}`} name={name} />
-        </>
       )
     }
 
