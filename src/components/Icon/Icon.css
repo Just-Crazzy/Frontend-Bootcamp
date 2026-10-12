@@ -1,0 +1,65 @@
+.icon {
+  width: 26px;
+  height: 26px;
+  padding-bottom: 2px;
+  padding-right: 4px;;
+}
+
+.folder-icon {
+  vertical-align: middle;
+
+  #primary {
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1;
+  }
+
+  #secondary {
+    fill: rgb(44, 169, 188);
+    stroke-width: 2;
+  }
+}
+
+.folder-icon--open {
+  vertical-align: middle;
+
+  #primary {
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1;
+  }
+  #primary-2 {
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1;
+  }
+  #secondary {
+    fill: rgb(44, 169, 188);
+    stroke-width: 2;
+  }
+}
+
+.file-icon {
+
+  vertical-align: middle;
+
+  #primary {
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1;
+  }
+
+  #secondary {
+    fill: rgb(44, 169, 188);
+    stroke-width: 2;
+  }
+
+}
